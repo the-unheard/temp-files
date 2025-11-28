@@ -99,8 +99,8 @@
             browserCta.textContent = ctaText;
         }
 
-        // Run the detection function immediately
-        window.addEventListener('load', detectBrowser);
+        // Run the detection function immediately as a best practice for embedded SVG scripts.
+        detectBrowser();
         ]]>
     </script>
 </svg>
